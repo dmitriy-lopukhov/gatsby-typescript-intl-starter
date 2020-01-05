@@ -45,5 +45,6 @@ module.exports = {
         redirect: true,
       },
     },
+    `gatsby-plugin-sass`
   ],
 }
