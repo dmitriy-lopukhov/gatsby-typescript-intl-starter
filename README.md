@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter <br>(with typescript and internationalization)
+  Gatsby's default starter <br>(with typescript, scss and internationalization)
 </h1>
 
 Gatsby's default starter with [typescript](https://www.typescriptlang.org) and [gatsby-plugin-intl](https://github.com/wiziple/gatsby-plugin-intl) for i18n.
