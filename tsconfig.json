@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "typeRoots": [
-      "src/customTypings",
+      "src/@types",
       "node_modules/@types"
     ]
   },
