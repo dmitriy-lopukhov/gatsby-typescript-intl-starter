@@ -1,1 +1,1 @@
-declare module 'gatsby-plugin-intl';
+declare module "gatsby-plugin-intl"

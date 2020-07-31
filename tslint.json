@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "tslint-react"
-  ],
+  "extends": ["tslint-react"],
   "rules": {
     "prettier": true,
     "jsx-no-multiline-js": false,

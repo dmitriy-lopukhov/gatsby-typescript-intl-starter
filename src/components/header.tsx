@@ -1,7 +1,7 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
-import React from 'react';
-import LanguageSwitcher from './language-switcher';
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
+import LanguageSwitcher from "./language-switcher"
 
 const Header = ({ siteTitle }: { siteTitle: string }) => (
   <header
@@ -19,7 +19,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          to='/'
+          to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -31,14 +31,14 @@ const Header = ({ siteTitle }: { siteTitle: string }) => (
       <LanguageSwitcher />
     </div>
   </header>
-);
+)
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-};
+}
 
 Header.defaultProps = {
   siteTitle: ``,
-};
+}
 
-export default Header;
+export default Header
